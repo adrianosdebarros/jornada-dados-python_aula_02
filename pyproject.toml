@@ -1,0 +1,23 @@
+[project]
+name = "python-aula-02"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "adrianosdebarros",email = "adriano.sdebarros@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "claude (>=0.4.11,<0.5.0)",
+    "anthropic (>=0.68.0,<0.69.0)"
+]
+
+[dependency-groups]
+dev = [
+    "yes (>=0.0.1,<0.0.2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
