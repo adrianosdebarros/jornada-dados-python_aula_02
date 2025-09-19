@@ -187,18 +187,6 @@ files = [
 ]
 
 [[package]]
-name = "claude"
-version = "0.4.11"
-description = "Reserved"
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "claude-0.4.11-py3-none-any.whl", hash = "sha256:369b5945461154bdcb9957f375944e9268ad343e15a924af2476a05b1c167478"},
-    {file = "claude-0.4.11.tar.gz", hash = "sha256:a76ecc7e28869866c4353a39d176397a3b6964b543ef176363db5ea32726868d"},
-]
-
-[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
@@ -1144,4 +1132,4 @@ sphinx-rtd-theme = "*"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "120b875d5313e27d1fbcd1ef14d27ea081bc7c444de3abd8c792c2fa7957406c"
+content-hash = "6ef3f209860b96ce11456f9af9b3d034b527907a0d2f280153e3fe98cbecc7a2"
